@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DEMO6ViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="64" width="320" height="460"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View Controller 6" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="129" translatesAutoresizingMaskIntoConstraints="NO" id="dH0-6X-7D6">
+                    <rect key="frame" x="69" y="75" width="182" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="0sj-N3-pgM"/>
+                        <constraint firstAttribute="width" constant="182" id="1pX-sU-5or"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="q2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="XPe-Lb-fRt">
+                    <rect key="frame" x="16" y="316" width="288" height="264.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="XPe-Lb-fRt" secondAttribute="height" multiplier="184:169" id="qph-xv-mXA"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.52126414939999999" green="0.88576457419999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="dH0-6X-7D6" secondAttribute="centerX" id="Coq-D6-rrG"/>
+                <constraint firstAttribute="trailing" secondItem="XPe-Lb-fRt" secondAttribute="trailing" constant="16" id="SRi-qn-p9J"/>
+                <constraint firstItem="dH0-6X-7D6" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="75" id="gnz-hX-Zx8"/>
+                <constraint firstItem="XPe-Lb-fRt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="kQq-iz-9Q8"/>
+                <constraint firstAttribute="bottom" secondItem="XPe-Lb-fRt" secondAttribute="bottom" constant="55" id="rNX-sF-g3M"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <simulatedToolbarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
+            <point key="canvasLocation" x="340" y="302"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="q2.jpg" width="960" height="639"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
